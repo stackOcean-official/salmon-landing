@@ -45,8 +45,8 @@ export default function Features() {
             A better way to deploy models
           </p>
           <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto">
-            A model in R and Python is easy for you to write but you don't know
-            how to use it further? We help you to deploy it as an API to a
+            A model in R and Python is easy for you to write but you don&apos;t
+            know how to use it further? We help you to deploy it as an API to a
             server!
           </p>
         </div>

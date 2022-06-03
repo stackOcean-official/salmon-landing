@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function WaitlistSuccess() {
   return (
@@ -119,12 +120,11 @@ export default function WaitlistSuccess() {
                   and let you know as soon as we launch the first version of the
                   software for you to use.
                 </p>
-                <a
-                  className="block w-full px-5 py-3 text-base font-medium text-center text-white border border-transparent rounded-md shadow-md hover:bg-ocean-600 sm:inline-block sm:w-auto bg-gradient-to-r from-ocean-600 to-cyan-600 whitespace-nowrap"
-                  href="/"
-                >
-                  Back to the Homepage
-                </a>
+                <Link href="/">
+                  <a className="block w-full px-5 py-3 text-base font-medium text-center text-white border border-transparent rounded-md shadow-md hover:bg-ocean-600 sm:inline-block sm:w-auto bg-gradient-to-r from-ocean-600 to-cyan-600 whitespace-nowrap">
+                    Back to the Homepage
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -17,8 +17,8 @@ export default function Privacy() {
         <br />
         Who is responsible for data collection on this website? <br />
         Data processing on this website is carried out by the website operator.
-        You can find his contact details in the section "Information on the
-        responsible party" in this data protection declaration. <br />
+        You can find his contact details in the section &quot;Information on the
+        responsible party&quot; in this data protection declaration. <br />
         in this data protection declaration. <br />
         <br />
         How do we collect your data? <br />
@@ -57,7 +57,7 @@ export default function Privacy() {
       <p className="py-4">
         External hosting <br />
         This website is hosted by an external service provider (hoster). The
-        personal data collected on this website is stored on the hoster's
+        personal data collected on this website is stored on the hoster&apos;s
         servers. This may include, but is not limited to, IP addresses, contact
         requests, meta and communication data, contract data, contact details,
         names, website accesses and other data generated via a website. <br />
@@ -178,8 +178,8 @@ export default function Privacy() {
         content, such as orders or requests that you send to us as the site
         operator, SSL or TLS encryption. You can recognize an encrypted
         connection by the fact that the address line of the browser changes from
-        "http://" to "https://" and by the lock symbol in your browser line.{" "}
-        <br />
+        &quot;http://&quot; to &quot;https://&quot; and by the lock symbol in
+        your browser line. <br />
         If SSL or TLS encryption is activated, the data you transmit to us
         cannot be read by third parties. <br />
         <br />
@@ -252,8 +252,8 @@ export default function Privacy() {
       <p className="py-4">
         YouTube with enhanced data protection <br />
         This website embeds videos of YouTube. The operator of the pages is
-        Google Ireland Limited ("Google"), Gordon House, Barrow Street, Dublin
-        4, Ireland. <br />
+        Google Ireland Limited (&quot;Google&quot;), Gordon House, Barrow
+        Street, Dublin 4, Ireland. <br />
         We use YouTube in the extended data protection mode. According to
         YouTube, this mode means that YouTube does not store any information
         about visitors to this website before they watch the video. However, the
