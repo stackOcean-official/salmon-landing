@@ -10,7 +10,7 @@ export default function Hero() {
       id="start"
     >
       <div className="mx-auto max-w-7xl lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-16">
           <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div className="lg:py-24">
               <a
@@ -66,6 +66,7 @@ export default function Hero() {
                       </label>
                       <input
                         id="email"
+                        name="email"
                         type="email"
                         placeholder="Enter your email"
                         className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-0 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ocean-300 focus:ring-offset-gray-900"
@@ -93,8 +94,8 @@ export default function Hero() {
             <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <img
-                className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/cloud-illustration-ocean-400.svg"
+                className="w-full fill-blue-500 opacity-90 lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-xl"
+                src="/img/data-scientist-colored.svg"
                 alt=""
               />
             </div>

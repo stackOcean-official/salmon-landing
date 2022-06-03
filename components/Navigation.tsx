@@ -103,7 +103,7 @@ export default function Navigation() {
   return (
     <Popover className="relative">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
-        <div className="flex items-center justify-between py-6 border-b-2 border-gray-100 md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between py-6 border-b-2 border-ocean-800 border-opacity-20 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/">
               <a>
@@ -124,14 +124,14 @@ export default function Navigation() {
           </div>
           <a
             href="#start"
-            className="hidden text-base font-medium text-slate-900 hover:text-slate-600 md:block"
+            className="hidden text-base font-medium text-slate-700 hover:text-slate-600 md:block"
           >
             Start
           </a>
 
           <a
             href="#features"
-            className="hidden text-base font-medium text-slate-900 hover:text-slate-600 md:block"
+            className="hidden text-base font-medium text-slate-700 hover:text-slate-600 md:block"
           >
             Features
           </a>
