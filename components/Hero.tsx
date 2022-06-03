@@ -42,7 +42,7 @@ export default function Hero() {
               </h1>
               <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 With our framework we enable data scientist to focus on what
-                they do best and take care of the deployment hassle
+                they do best and take care of the deployment hassle.
               </p>
               <div className="mt-10 sm:mt-12">
                 <form
